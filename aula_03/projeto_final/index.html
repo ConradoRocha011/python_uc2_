@@ -13,7 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
     <!-- Estilos personalizados (opcional) -->
  <!------------------------------------------------------------------------------------------------------------------------------->      
@@ -36,50 +36,108 @@
             margin-top: 10px;
             padding-top: 10px;
         }
+        .caixa{
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000;
+            margin: 5px;
+        }
     </style>
  <!------------------------------------------------------------------------------------------------------------------------------->   
 </head>
 <body>
     <!--Cabecalho da pagina-->
-    <header>
-    </header>
+  <header class="bg-white text-black">
+      
+    <div class="container-fluid py-4">
+<!--Linha1----------------------------------------------------------------------------------------------------------------------->
+        <div class="row">
+<!--Coluna1---------------------------------------------------------------------------------------------------------------------->          
+          <div class="col-md-3">
+            <nav class="nav flex-column">
+              <p>Home</p>
+                <img src="imagens/img.png" width="100" height="100">
+            </nav>
+          </div>
+<!--Coluna2---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-md-3">
+            <nav class="nav flex-column">
+              <p>Menu</p>
+            </nav>
+          </div>
+<!--Coluna3---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-md-6">
+            <nave class="nav flex-column">
+              <p>Login</p>
+            </nave>
+          </div>
+        </div>
+      </div>
+  </header>
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!--Corpo-->
-    <main>
-    </main>
+  <main>
+  </main>
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!--Rda pé-->
-    <footer>
-        <nav>  
-            <ul>
- <!------------------------------------------------------------------------------------------------------------------------------->
-              <li>
-                <a href="privacidade.html">Politica de privacidade</a>
-              </li>
+  <footer class="bg-black text-white">
+      <div class="container-fluid py-4">
+<!--Linha1----------------------------------------------------------------------------------------------------------------------->
+        <div class="row">
+<!--Coluna1---------------------------------------------------------------------------------------------------------------------->          
+          <div class="col-md-3">
+            <nav class="">  
+              <ul>
+                <li>
+                  <a classe="nav-link text-white py-1" href="privacidade.html">Politica de privacidade</a>
+                </li>
 <!------------------------------------------------------------------------------------------------------------------------------->
-              <li>
-                <a href="suporte.html">Suporte</a>
-              </li>
+                <li>
+                  <a classe="nav-link text-white py-1" href="suporte.html">Suporte</a>
+                </li>
 <!------------------------------------------------------------------------------------------------------------------------------->
-              <li>
-                <a href="contato.html">Fale conosco</a>
-              </li>
+                <li>
+                  <a classe="nav-link text-white py-1" href="contato.html">Fale conosco</a>
+                </li>
 <!------------------------------------------------------------------------------------------------------------------------------->
-              <li>
-                <a href="quemsomos.html">Quem somos</a>
-              </li>
+                <li>
+                  <a classe="nav-link text-white py-1" href="quemsomos.html">Quem somos</a>
+                </li>
 <!------------------------------------------------------------------------------------------------------------------------------->
-              <li>
-                <a href="https://www.instagram.com" target="_blank">Redes sociais</a>
-              </li>
-<!------------------------------------------------------------------------------------------------------------------------------>
-              <li>
-                <a href="termos.html">Termos de provacidade</a>
-              </li> 
-
-            </ul>
-        </nav>
-    </footer>
+                <li>
+                  <a classe="nav-link text-white py-1" href="termos.html">Termos de provacidade</a>
+                </li> 
+              </ul>
+            </nav>
+          </div>
+<!--Coluna2---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-md-3">
+            <nav class="nav flex-column">
+              <h4>Visite nossas redes</h4>
+                <ul>
+                  <li>
+                    <a>
+                        <a classe="nav-link text-white py-1" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </a>
+                  </li>
+<!--------------------------------------------------------------------------------------------------------------------------------->
+                  <li>
+                      <a>
+                      <a classe="nav-link text-white py-1" href="https://x.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                      </svg>
+                      </a>
+                    </a>
+                  </li>
+            </nav>
+          </div>
+<!--Coluna3---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-md-6">
+            <h4>Teste3</h4>
+          </div>
+        </div>
+      </div>
+  </footer>
 <!------------------------------------------------------------------------------------------------------------------------------->
     <!-- Bootstrap JS e dependências -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
